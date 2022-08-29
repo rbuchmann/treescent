@@ -1,0 +1,11 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "1.1.1"]]
+
+ :builds
+ {:app {:target    :node-script
+        :output-to "out/treecent.js"
+        :main      treecent.core/main}}}

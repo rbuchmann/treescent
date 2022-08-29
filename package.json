@@ -1,0 +1,12 @@
+{
+  "name": "treescent",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.19.9"
+  },
+  "dependencies": {
+    "ink": "^3.2.0",
+    "react": "^17.0.2"
+  }
+}
